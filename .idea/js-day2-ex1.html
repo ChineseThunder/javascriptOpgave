@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js-day2-ex1.html</title>
+</head>
+<body>
+<ul>
+    <button>
+        <a href="Exercises.html">Index</a>
+    </button>
+</ul>
+
+<div id="div1" style="width: 100px;margin: 1px;">&nbsp;</div>
+<div id="div2" style="width: 100px;margin: 1px;">&nbsp;</div>
+<div id="div3" style="width: 100px;margin: 1px;">&nbsp;</div>
+
+<button id="colorChange">
+    klik mig
+</button>
+
+<script>
+
+    const styleHere = document.querySelectorAll("div")
+    for (var i = 0; i < styleHere.length; i++){
+        styleHere[i].style.backgroundColor = "blue"
+    }
+
+
+
+</script>
+
+
+</body>
+</html>
