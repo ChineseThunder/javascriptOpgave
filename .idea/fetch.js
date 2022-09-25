@@ -35,7 +35,6 @@ function loadData (){
             const ulAsStr = ul.join("")
             document.getElementById("my-ul").innerHTML = ulAsStr
             console.log(names)
-
         })
         .catch(e => {
             console.error(e)
